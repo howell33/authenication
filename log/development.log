@@ -3316,3 +3316,121 @@ Processing by DanceTeamsController#edit as HTML
   [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
 Completed 200 OK in 78ms (Views: 76.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/dance_teams" for ::1 at 2015-03-30 18:26:59 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (14.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DanceTeamsController#index as HTML
+  [1m[35mDanceTeam Load (0.7ms)[0m  SELECT "dance_teams".* FROM "dance_teams"
+  Rendered dance_teams/index.html.erb within layouts/application (28.7ms)
+  [1m[36mUser Load (18.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 517ms (Views: 469.9ms | ActiveRecord: 20.2ms)
+
+
+Started GET "/assets/dance_teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/assets/scaffolds-9491faa19dc2fc4447362f5a7facdc41.css?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/assets/static-2e17846f7e455cf34cacfa86ca0687df.css?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/assets/application-081aaae3d7edc399a8e251b80ae0293b.css?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/assets/dance_teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/assets/application-72ca61f8964a833c8434acaafe1d9633.js?body=1" for ::1 at 2015-03-30 18:27:00 -0400
+
+
+Started GET "/" for ::1 at 2015-03-30 18:27:03 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+Completed 200 OK in 84ms (Views: 83.2ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/sign-out" for ::1 at 2015-03-30 18:27:05 -0400
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"COT14sWcAN8M6zTNGD58h2NGUF+YVZ4uOuInoHGNtrMyRzlwqoojjjd/9hNti337IE5DzF+r8aEpplgMcC3ukg=="}
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-03-30 18:27:05 -0400
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.4ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 82ms (Views: 80.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/dance_teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/assets/application-081aaae3d7edc399a8e251b80ae0293b.css?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/assets/scaffolds-9491faa19dc2fc4447362f5a7facdc41.css?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/assets/static-2e17846f7e455cf34cacfa86ca0687df.css?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/assets/dance_teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/assets/application-72ca61f8964a833c8434acaafe1d9633.js?body=1" for ::1 at 2015-03-30 18:27:05 -0400
+
+
+Started GET "/about" for ::1 at 2015-03-30 18:27:06 -0400
+Processing by StaticController#about as HTML
+  Rendered static/about.html.erb within layouts/application (0.4ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 90ms (Views: 89.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/cat-pictures" for ::1 at 2015-03-30 18:27:07 -0400
+Processing by StaticController#cats as HTML
+  Rendered static/cats.html.erb within layouts/application (0.6ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 929ms (Views: 85.0ms | ActiveRecord: 0.2ms)
