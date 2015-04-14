@@ -26,14 +26,17 @@
         <td><%= dance_team.HipHop %></td>
         <td><%= dance_team.Ballet %></td>
         <td><%= dance_team.Jazz %></td>
-        <td><%= link_to 'Show', dance_team %></td>
-        <td><%= link_to 'Edit', edit_dance_team_path(dance_team) %></td>
-        <td><%= link_to 'Destroy', dance_team, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% if user_signed_in? %>
+          <td><%= link_to 'Show', dance_team %></td>
+          <td><%= link_to 'Edit', edit_dance_team_path(dance_team) %></td>
+          <td><%= link_to 'Destroy', dance_team, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
       </tr>
     <% end %>
   </tbody>
 </table>
 
 <br>
-
+<% if user_signed_in? %>
 <%= link_to 'New Dance team', new_dance_team_path %>
+<% end %>
