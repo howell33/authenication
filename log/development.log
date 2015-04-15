@@ -3891,3 +3891,113 @@ Processing by DanceTeamsController#index as HTML
   Rendered dance_teams/index.html.erb within layouts/application (1.7ms)
   [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
 Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2015-04-15 01:56:19 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (14.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (2.5ms)
+  [1m[35mUser Load (41.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 660ms (Views: 582.6ms | ActiveRecord: 41.5ms)
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/assets/scaffolds-9491faa19dc2fc4447362f5a7facdc41.css?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/assets/dance_teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/assets/static-2e17846f7e455cf34cacfa86ca0687df.css?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/assets/application-081aaae3d7edc399a8e251b80ae0293b.css?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/assets/dance_teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/assets/application-72ca61f8964a833c8434acaafe1d9633.js?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-15 01:56:21 -0400
+
+
+Started GET "/dance_teams" for ::1 at 2015-04-15 01:56:24 -0400
+Processing by DanceTeamsController#index as HTML
+  [1m[36mDanceTeam Load (21.3ms)[0m  [1mSELECT "dance_teams".* FROM "dance_teams"[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered dance_teams/index.html.erb within layouts/application (35.0ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 143ms (Views: 103.7ms | ActiveRecord: 22.0ms)
+
+
+Started GET "/dance_teams" for ::1 at 2015-04-15 02:03:45 -0400
+Processing by DanceTeamsController#index as HTML
+  [1m[36mDanceTeam Load (0.2ms)[0m  [1mSELECT "dance_teams".* FROM "dance_teams"[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered dance_teams/index.html.erb within layouts/application (3.1ms)
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Completed 200 OK in 67ms (Views: 66.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/dance_teams-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/assets/static-2e17846f7e455cf34cacfa86ca0687df.css?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/assets/sessions-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/assets/scaffolds-9491faa19dc2fc4447362f5a7facdc41.css?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/assets/application-081aaae3d7edc399a8e251b80ae0293b.css?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/assets/sessions-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/assets/static-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/assets/dance_teams-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/assets/application-72ca61f8964a833c8434acaafe1d9633.js?body=1" for ::1 at 2015-04-15 02:03:45 -0400
+
+
+Started GET "/dance_teams/3" for ::1 at 2015-04-15 02:03:47 -0400
+Processing by DanceTeamsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mDanceTeam Load (0.2ms)[0m  [1mSELECT  "dance_teams".* FROM "dance_teams" WHERE "dance_teams"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered dance_teams/show.html.erb within layouts/application (1.7ms)
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Completed 200 OK in 73ms (Views: 71.4ms | ActiveRecord: 0.4ms)
